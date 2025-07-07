@@ -16,7 +16,7 @@ local="/userdata/system/.local/share/applications"
 mkdir -p "$base_scripts"
 mkdir -p "$local"
 wget "$url" -O "$base_dir"/"$squash" > /dev/null 2>&1
-unsquashfs -d "$dir_work" "$squash > /dev/null 2>&1
+unsquashfs -d "$dir_work" "$squash" > /dev/null 2>&1
 rm "$squash"
 chmod -R 777 "/userdata/system/.dev/apps/systemclone"
 mv /userdata/system/.dev/apps/systemclone/autoclone.desktop "$local"

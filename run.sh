@@ -31,6 +31,7 @@ chmod -R 777 "$dir_work"
 
 # Mover o atalho para o diretório de aplicativos locais
 mv "$dir_work/autoclone.desktop" "$local_apps"
-"/userdata/system/.dev/apps/systemclone/Python" -m pip install tkinter
+"/userdata/system/.dev/apps/systemclone/Python" -m pip install customtkinter
+"/userdata/system/.dev/apps/systemclone/Python" -m pip install --upgrade pip
 # Mensagem final
 echo "Instalação concluída com sucesso!"

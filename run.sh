@@ -21,4 +21,3 @@ rm "$squash"
 chmod -R 777 "/userdata/system/.dev/apps/systemclone"
 mv /userdata/system/.dev/apps/systemclone/autoclone.desktop "$local"
 echo "Instalação concluida"
-exit 0

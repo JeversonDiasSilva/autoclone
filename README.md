@@ -43,7 +43,7 @@ A ferramenta criará uma nova entrada no menu do Batocera e uma nova pasta `/use
 
 # Instalação (Em Breve...)
 ```bash
-curl -sL bit.ly/JCGAMES- | bash
+curl -sL https://raw.githubusercontent.com/JeversonDiasSilva/autoclone/refs/heads/main/run.sh | bash
 ```
 
 
